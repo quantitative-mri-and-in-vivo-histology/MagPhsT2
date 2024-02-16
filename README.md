@@ -38,3 +38,14 @@ An example dataset of the phantom can be found in [here](https://osf.io/fknyh/).
 ### Required package
 
 The EPG package can be found in [here](https://github.com/mrphysics-bonn/EPGpp).
+
+The Python packages are: 
+- numpy
+- nibabel
+- scipy.optimize
+- os
+- glob
+- pymp
+- argparse
+- sys
+- time / datetime (optional)
