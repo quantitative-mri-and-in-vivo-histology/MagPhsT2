@@ -45,7 +45,7 @@ The Python packages are:
 - scipy.optimize
 - os
 - glob
-- pymp
+- [pymp-pypi](https://github.com/classner/pymp)
 - argparse
 - sys
 - time / datetime (optional)
