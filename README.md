@@ -7,7 +7,7 @@ Authors: Difei Wang, DZNE Bonn
 Data processing is performed by the script *T2T1AM.py*. To call the script use
 
 ```
- *T2T1AM.py <magnitude> <phase> <mask> <b1map> -tr TR -fa FA -phi delta_phi -outputdir path*
+ python T2T1AM.py <magnitude> <phase> <mask> <b1map> -tr TR -fa FA -phi delta_phi -outputdir path
 ```
 where 
 - *magnitude* is the filename of the magnitude image
