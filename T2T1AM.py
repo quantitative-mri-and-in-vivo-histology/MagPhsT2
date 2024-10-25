@@ -112,10 +112,10 @@ def cal_T2T1AM(magn_file, phas_file, mask_file, b1_file, TR, FA, phi,
             args = (fa, TR, d_phi, sig)
 
             try:
+                tol = 1e-6
                 res = least_squares(eg.greps_diff_signal_err_least_squares, x0,
-                                    args=args, bounds=bnds, ftol=1e-10,
-                                    xtol=1e-10, gtol=1e-10)
-                # print(res.x[0], res.x[1], res.x[2])
+                                    args=args, bounds=bnds, ftol=tol,
+                                    xtol=tol, gtol=tol)
                 T1_array[i] = res.x[0]
                 T2_array[i] = res.x[1]
                 Am_array[i] = res.x[2]
